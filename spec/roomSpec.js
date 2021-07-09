@@ -17,10 +17,17 @@ describe('Room', () => {
     expect(room.isAvailable()).toEqual(true);
   });
 
-  describe('when someone enters a meeting room', () => {
-    it('is unavailable', () => {
+  describe('room availability', () => {
+    it('becomes unavailable when someone enters the room', () => {
       room.enter();
       expect(room.isAvailable()).toEqual(false);
+    });
+
+    it('becomes available again when someone leaves the room', () => {
+      room.enter();
+      expect(room.isAvailable()).toEqual(false);
+      room.leave();
+      expect(room.isAvailable()).toEqual(true);
     });
   });
   
