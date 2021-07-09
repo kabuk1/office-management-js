@@ -1,0 +1,24 @@
+{
+  "name": "office-management",
+  "version": "1.0.0",
+  "description": "## Set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabuk1/office-management-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabuk1/office-management-js/issues"
+  },
+  "homepage": "https://github.com/kabuk1/office-management-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine-node": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
