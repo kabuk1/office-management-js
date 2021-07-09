@@ -37,6 +37,6 @@ describe('Office', () => {
     office.addRoom(roomB);
     office.addRoom(roomC);
     roomC.enter();
-    expect(office.roomList()).toEqual([roomA, roomB]);
+    expect(office.availableRooms()).toEqual([roomA, roomB]);
   });
 });
