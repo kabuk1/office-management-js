@@ -1,6 +1,18 @@
 # Office Management Challenge
 
-## Set up
+## Prerequisites
+* npm >= 7.18.1
+* node >= 16.4.1
+
+## Install
+```
+npm install
+```
+
+## Run tests
+```
+npm test
+```
 
 ## User stories
 ```
