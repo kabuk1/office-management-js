@@ -1,6 +1,6 @@
 'use string';
 
-const Room = require("../lib/js/Room");
+const Room = require("../lib/js/room");
 
 describe('Room', () => {
   let room;

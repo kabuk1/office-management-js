@@ -2,7 +2,7 @@
   "name": "office-management",
   "version": "1.0.0",
   "description": "## Set up",
-  "main": "index.js",
+  "main": "lib/js/index.js",
   "scripts": {
     "test": "jasmine"
   },
@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/kabuk1/office-management-js#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "jasmine": "^3.8.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
